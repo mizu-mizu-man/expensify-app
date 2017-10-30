@@ -4,8 +4,8 @@ export const setTextFilter = (text = '') => ({
   text
 });
 
-export // SORT_BY_AMOUNT
-const sortByAmount = () => ({
+// SORT_BY_AMOUNT
+export const sortByAmount = () => ({
   type: 'SORT_BY_AMOUNT',
 });
 
